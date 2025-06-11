@@ -117,7 +117,7 @@ In more details here are the steps:
 
 Example usage to extract embeddings from SimCLR
 ```
-python scripts/pipeline.py --model_name simclr --patches_folder ../results/compute_patches/her2_final_without_A/ --pipeline_name simclr --results_folder ../results/pipeline --embedding_name image_embedding 
+python scripts/pipeline.py --model_name simclr --patches_folder ../results/compute_patches/her2_final_without_A/ --pipeline_name simclr --results_folder ../results/pipeline
 ```
 
 Note: If you just want to extract embeddings without computing the shannon entropy or running the k-NN re-annotation, you can use the ready-to-use script `script/compute_embeddings.py` that takes the same arguments. 
